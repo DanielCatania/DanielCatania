@@ -7,6 +7,7 @@ const Controls = styled.div`
 
   @media screen and (min-width: 0px) {
     flex-direction: column-reverse;
+    gap: 32px;
   }
 
   @media screen and (min-width: 1024px) {
