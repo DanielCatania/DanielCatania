@@ -8,7 +8,10 @@ export default function Menu() {
 
   return (
     <MenuBox>
-      <ButtonMenu onClick={() => setItIsOpen(!itIsOpen)}>Menu</ButtonMenu>
+      <ButtonMenu
+        onClick={() => setItIsOpen(!itIsOpen)}
+        className={`${mode} ${itIsOpen ? "open" : "close"}`}
+      />
       <Window className={`${mode} ${itIsOpen ? "open" : "close"}`}>
         <ControlsContainer>
           <Controls />
