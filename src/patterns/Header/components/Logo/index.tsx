@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import LogoBox from "./style";
+import AppContext from "@/AppContext";
 import { useTheme } from "styled-components";
 
 export default function Logo() {
-  const mode = "dark"; // momentary
+  const mode = useContext(AppContext).mode.state;
   const theme = useTheme();
 
   return (

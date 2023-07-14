@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import AppContext from "@/AppContext";
 import MenuBox, { Window, ButtonMenu, ControlsContainer } from "./style";
 import Controls from "../Controls";
 
 export default function Menu() {
-  const mode = "dark"; // momentary
+  const mode = useContext(AppContext).mode.state;
   const [itIsOpen, setItIsOpen] = useState(false);
 
   return (
