@@ -1,9 +1,13 @@
 import styled from "styled-components";
 
 const Header = styled.header`
+  position: absolute;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  animation: drop 2s ease-in-out;
 
   &.light {
     background: ${({ theme }) => theme.colors.filter["002"]};
@@ -20,6 +24,15 @@ const Header = styled.header`
   }
   @media screen and (min-width: 1024px) {
     padding: 24px 64px;
+  }
+
+  @keyframes drop {
+    from {
+      top: -120px;
+    }
+    to {
+      top: 0;
+    }
   }
 `;
 
