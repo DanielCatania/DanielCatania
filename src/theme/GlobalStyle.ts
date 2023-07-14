@@ -29,6 +29,7 @@ const GlobalStyle = createGlobalStyle`
     justify-content: flex-start;
     align-content: flex-start;
     flex-shrink: 0;
+    position: relative;
 
     background-color: #4D4D4D;
   }
