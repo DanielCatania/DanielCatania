@@ -12,7 +12,7 @@ export const Window = styled.div`
   width: 300px;
 
   height: calc(100vh + 50px);
-  padding-top: 50px;
+  padding: 40px 30px;
   top: -50px;
 
   transition: 0.5s;
