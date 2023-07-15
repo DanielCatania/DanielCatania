@@ -7,7 +7,7 @@ const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  animation: drop 2s ease-in-out;
+  animation: drop 1s ease-in-out;
 
   &.light {
     background: ${({ theme }) => theme.colors.filter["002"]};
