@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { AppProps } from "next/app";
+
 import GlobalStyle from "@/theme/GlobalStyle";
 import theme from "@/theme/theme";
 import { ThemeProvider } from "styled-components";
+
 import AppContext from "@/AppContext";
+import useLocalStorage from "@/hooks/useLocalStorage";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [modeSelected, setModeSelected] = useState<"dark" | "light">("dark");
+  const [modeSelected, setModeSelected] = useLocalStorage("MODE", "dark");
 
   return (
     <>
