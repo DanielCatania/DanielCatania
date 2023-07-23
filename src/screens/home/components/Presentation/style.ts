@@ -40,7 +40,7 @@ const Presentation = styled.section`
   }
 `;
 
-export const Text = styled.div`
+export const PresentationContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
