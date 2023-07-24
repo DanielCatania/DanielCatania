@@ -46,22 +46,12 @@ export const PresentationContainer = styled.div`
   flex-direction: column;
 
   @media screen and (min-width: 0px) {
-    max-width: 320px;
     align-items: flex-start;
   }
 
-  @media screen and (min-width: 744px) {
-    max-width: 420px;
-  }
-
   @media screen and (min-width: 1024px) {
-    max-width: none;
     align-items: center;
   }
-`;
-
-export const Emphasis = styled.span`
-  color: ${({ theme }) => theme.colors.main["050"]};
 `;
 
 export default Presentation;
