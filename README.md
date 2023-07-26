@@ -1,14 +1,7 @@
-# Hello, i am Daniel Catania 👋
+# Olá, eu sou Daniel Catania 👋
 
-I'm from Brazil and I've been studying programming since 2020. 
-There in 2020, i started the basic python course, a course from ['Curso em vídeo'](https://github.com/cursoemvideo) on youtube,  i fell in love with this world and i 'm here now. 
+ Um apaixonado por tecnologia, pendurador de peças profissional ♟️ e um escalador nas montanhas de Hyrule.
 
-I 'm a technology lover in general, but the frontend steals my heart. ❤️
+Iniciei minha jornada no mundo da programação com um evento canônico 🕷 para quase todo programador: o curso de "HTML e CSS" do lendário Gustavo Guanabara no "Curso em Vídeo". Esse curso foi o ponto de partida que abriu as portas do universo da programação para mim, despertando meu interesse e me impulsionando a me aventurar nesse campo. 🌌🚀 
 
-
-## Skills 
-
-<img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg alt=JavaScript width=50> <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg alt=TypeScript width=50> <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg alt=HTML width=50> <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg alt=CSS width=50> <img src=https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg alt=React width=50> 
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DanielCatania&theme=dracula&langs_count=168)
-
+Mergulhei de cabeça 🤿 e aprofundei-me no HTML e CSS, logo em seguida, aprendi JavaScript e descobri o poder da combinação React + Next.js. Ao longo dessa jornada, desenvolvi diversos projetos e aprimorei minhas habilidades, que convido você a explorar na seção de projetos do meu portfólio ou em meu perfil do GitHub :octocat:. Lá, você poderá conferir meu trabalho.
