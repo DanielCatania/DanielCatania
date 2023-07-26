@@ -40,6 +40,15 @@ const theme = {
       b5: "12px",
     },
   },
+  sizes: {
+    padding: {
+      section: {
+        lg: "96px 128px",
+        md: "64px 96px",
+        xs: "64px 32px",
+      },
+    },
+  },
 };
 
 export default theme;

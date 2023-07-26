@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import Section from "@/components/Section";
 
-const Presentation = styled.section`
+const Presentation = styled(Section)`
   display: flex;
   justify-content: center;
   align-items: center;
