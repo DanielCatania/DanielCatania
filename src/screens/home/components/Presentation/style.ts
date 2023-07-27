@@ -2,10 +2,12 @@ import styled from "styled-components";
 import Section from "@/components/Section";
 
 const Presentation = styled(Section)`
+  padding: 0px;
+  padding-top: 100px;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
 
   color: ${({ theme }) => theme.colors.neutral["050"]};
 
