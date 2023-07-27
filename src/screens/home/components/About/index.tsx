@@ -10,7 +10,9 @@ export default function About() {
   return (
     <AboutBox className={mode}>
       <TextContainer>
-        <Text size={{ type: "h", scale: 1 }}>Sobre Mim</Text>
+        <Text size={{ type: "h", scale: 1 }} as="h2">
+          Sobre Mim
+        </Text>
         <Text>
           Um apaixonado por tecnologia, pendurador de peças profissional ♟️ e um
           escalador nas montanhas de Hyrule.
@@ -33,7 +35,9 @@ export default function About() {
         </Text>
       </TextContainer>
       <AboutContainer>
-        <Text size={{ type: "h", scale: 1 }}>Skills</Text>
+        <Text size={{ type: "h", scale: 1 }} as="h2">
+          Skills
+        </Text>
         <Skills />
       </AboutContainer>
     </AboutBox>

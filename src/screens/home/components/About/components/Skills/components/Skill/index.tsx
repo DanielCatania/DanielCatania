@@ -10,7 +10,7 @@ export default function Skill({ src, alt, children }: SkillProps) {
   return (
     <SkillBox>
       <SkillImage src={`/img/skills/${src}`} alt={alt} />
-      <SkillName>{children}</SkillName>
+      <SkillName as="span">{children}</SkillName>
     </SkillBox>
   );
 }
