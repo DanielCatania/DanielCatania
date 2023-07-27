@@ -34,18 +34,12 @@ const SkillsBox = styled.ul`
   }
   @media screen and (min-width: 744px) {
     grid-template-columns: repeat(
-      3,
+      4,
       ${({ theme }) => theme.sizes.dimension.card.width}
     );
 
     max-height: none;
     overflow-y: initial;
-  }
-  @media screen and (min-width: 1024px) {
-    grid-template-columns: repeat(
-      4,
-      ${({ theme }) => theme.sizes.dimension.card.width}
-    );
   }
 `;
 
