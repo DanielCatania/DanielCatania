@@ -47,6 +47,21 @@ const theme = {
         md: "64px 96px",
         xs: "64px 32px",
       },
+      card: "12px 24px",
+    },
+    gap: {
+      card: "16px",
+    },
+    radius: "20px",
+    dimension: {
+      card: {
+        width: "100px",
+        height: "100px",
+      },
+      icon: {
+        width: "60px",
+        height: "60px",
+      },
     },
   },
 };
