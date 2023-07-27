@@ -1,51 +1,53 @@
-const skillsData = [
+import { SkillProps } from "./components/Skill";
+
+const skillsData: SkillProps[] = [
   {
-    name: "HTML",
+    children: "HTML",
     alt: "HTML 5",
     src: "html.png",
   },
   {
-    name: "CSS",
+    children: "CSS",
     alt: "CSS 3",
     src: "css.png",
   },
   {
-    name: "JavaScript",
+    children: "JavaScript",
     alt: "JS",
     src: "js.png",
   },
   {
-    name: "TypeScript",
+    children: "TypeScript",
     alt: "TS",
     src: "ts.png",
   },
   {
-    name: "ReactJS",
+    children: "ReactJS",
     alt: "React",
     src: "react.png",
   },
   {
-    name: "NextJS",
+    children: "NextJS",
     alt: "Next",
     src: "next.png",
   },
   {
-    name: "Tailwind",
+    children: "Tailwind",
     alt: "Tailwind",
     src: "tailwind.png",
   },
   {
-    name: "CSS-In-JS",
+    children: "CSS-In-JS",
     alt: "Styled-Components",
     src: "styled-components.png",
   },
   {
-    name: "Figma",
+    children: "Figma",
     alt: "Figma",
     src: "figma.png",
   },
   {
-    name: "NodeJS",
+    children: "NodeJS",
     alt: "Node",
     src: "node.png",
   },

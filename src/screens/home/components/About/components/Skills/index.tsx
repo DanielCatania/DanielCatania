@@ -1,45 +1,16 @@
 import React from "react";
-import { SkillBox, SkillImage, SkillName, SkillsContainer } from "./style";
+import SkillslBox from "./style";
+import skillsData from "./data";
+import Skill from "./components/Skill";
 
 export default function Skills() {
   return (
-    <SkillsContainer>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-      <SkillBox>
-        <SkillImage src="/img/skills/html.png" alt="HTML 5" />
-        <SkillName>HTML</SkillName>
-      </SkillBox>
-    </SkillsContainer>
+    <SkillslBox>
+      {skillsData.map(({ children, ...props }) => (
+        <Skill key={children} {...props}>
+          {children}
+        </Skill>
+      ))}
+    </SkillslBox>
   );
 }
