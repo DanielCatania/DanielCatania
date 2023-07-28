@@ -3,6 +3,7 @@ import AboutBox, { AboutContainer, TextContainer } from "./style";
 import Text from "@/components/Text";
 import AppContext from "@/AppContext";
 import Skills from "./components/Skills";
+import Waves from "./components/Waves";
 
 export default function About() {
   const mode = useContext(AppContext).mode.state;
@@ -40,6 +41,7 @@ export default function About() {
         </Text>
         <Skills />
       </AboutContainer>
+      <Waves />
     </AboutBox>
   );
 }

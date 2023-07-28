@@ -6,6 +6,9 @@ const AboutBox = styled(Section)`
   justify-content: space-between;
   gap: 32px;
 
+  position: relative;
+  padding-bottom: 20%;
+
   @media screen and (min-width: 0px) {
     flex-direction: column;
   }
